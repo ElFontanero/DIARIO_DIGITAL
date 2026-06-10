@@ -1,0 +1,50 @@
+body {
+    background-image: none;
+    background-color:burlywood;
+    font-size: 35px;
+    font-family: 'Bitcount Single', sans-serif;
+}
+#T1 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#imagen1, #imagen2, #imagen3 {
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+.MENU {
+    background-color: #d8c3a5;
+    padding: 15px;
+    border-radius: 15px;
+}
+.MENU UL {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.MENU LI {
+    display: inline-block;
+    margin: 0 15px;
+}
+.MENU A {
+    text-decoration: none;
+    color: #4a3f35;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.MENU A:HOVER {
+    color: white;
+    background-color: #8d6e63;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+#INTRO, #BAUTIZO, #GRADUACION {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.8;
+    padding: 30px;
+}
