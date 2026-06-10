@@ -50,8 +50,24 @@ body {
     line-height: 1.8;
     padding: 30px;
 }
-#LOGO {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
+#LOGO{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #ffd700;
+    padding: 4px;
+    background-color: #fff8dc;
+    box-shadow:
+        0 0 10px #ffd700,
+        0 0 20px #ffd700,
+        0 0 30px rgba(255,215,0,0.5);
+    transition: 0.4s;
+    margin-right: 20px;
+}
+#LOGO:hover{
+    transform: scale(1.1) rotate(10deg);
+    box-shadow:
+        0 0 15px #ffd700,
+        0 0 30px #ffd700,
+        0 0 45px rgba(255,215,0,0.7);
 }
