@@ -66,7 +66,7 @@ body {
     margin-right: 30px;
 }
 #LOGO:hover{
-    transform: scale(1.1) rotate(10deg);
+    transform: scale(1.1);
     box-shadow:
         0 0 15px #ffd700,
         0 0 30px #ffd700,
