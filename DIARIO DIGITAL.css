@@ -8,7 +8,7 @@ body {
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#imagen1, #imagen2, #imagen3 {
+#imagen1, #imagen2, #imagen3, #imagen4 {
     border-radius: 10%;
     display: block;
     margin: auto;
@@ -43,7 +43,7 @@ body {
     padding: 8px 12px;
     border-radius: 10px;
 }
-#INTRO, #BAUTIZO, #GRADUACION {
+#INTRO, #BAUTIZO, #GRADUACION, #CONVIVIO {
     width: 85%;
     margin: auto;
     text-align: justify;
