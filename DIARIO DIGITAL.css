@@ -50,7 +50,7 @@ body {
     line-height: 1.8;
     padding: 30px;
 }
-#LOGO{
+#LOGO {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -65,10 +65,38 @@ body {
     margin-left: 15px;
     margin-right: 30px;
 }
-#LOGO:hover{
+#LOGO:hover {
     transform: scale(1.1);
     box-shadow:
         0 0 15px #ffd700,
         0 0 30px #ffd700,
         0 0 45px rgba(255,215,0,0.7);
+}
+.CONTENEDOR-TARJETAS {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:40px;
+}
+.TARJETA {
+    width:300px;
+    background-color:#f5e6ca;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:5px 5px 15px rgba(0,0,0,.2);
+    text-align:center;
+    transition:.4s;
+}
+.TARJETA:hover {
+    transform:translateY(-10px);
+    box-shadow:8px 8px 20px rgba(0,0,0,.3);
+}
+.TARJETA H2 {
+    color:#6b4f2b;
+    font-size:30px;
+}
+.TARJETA P {
+    text-align:justify;
+    line-height:1.7;
 }
