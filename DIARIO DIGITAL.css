@@ -1,10 +1,10 @@
 body {
     background-image: none;
-    background-color:burlywood;
+    background-color: burlywood;
     font-size: 35px;
     font-family: 'Bitcount Single', sans-serif;
 }
-#MOMENTOS, #GUSTOS, #METAS, #CARTA {
+#MOMENTOS {
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
