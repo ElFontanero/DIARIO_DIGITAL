@@ -164,3 +164,41 @@ body {
     width:22px;
     height:22px;
 }
+#CARTA {
+    font-size:60px;
+    color:#5d4037;
+    text-align:center;
+    margin-bottom:40px;
+}
+.CARTA-CONTENEDOR {
+    width:75%;
+    margin:50px auto;
+    padding:60px;
+    background:#fffaf0;
+    border-radius:18px;
+    box-shadow:0px 10px 30px rgba(0,0,0,.20);
+    border:2px solid #d8c3a5;
+}
+.TEXTO-CARTA {
+    text-align:justify;
+    line-height:2;
+    font-size:28px;
+    text-indent:50px;
+}
+.CARTA-CONTENEDOR:hover {
+    box-shadow:0px 15px 40px rgba(0,0,0,.30);
+}
+.CARTA-CONTENEDOR::before {
+    content:"";
+    display:block;
+    height:3px;
+    background:linear-gradient(to right, transparent, gold, transparent);
+    margin-bottom:35px;
+}
+.CARTA-CONTENEDOR::after {
+    content:"";
+    display:block;
+    height:3px;
+    background:linear-gradient(to right, transparent, gold, transparent);
+    margin-top:35px;
+}
