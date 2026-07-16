@@ -8,7 +8,7 @@ body {
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#imagen1, #imagen2, #imagen3, #imagen4 {
+#imagen1, #imagen2, #imagen3, #imagen4, #imagen5 {
     border-radius: 10%;
     display: block;
     margin: auto;
@@ -43,7 +43,7 @@ body {
     padding: 8px 12px;
     border-radius: 10px;
 }
-#INTRO, #BAUTIZO, #GRADUACION, #CONVIVIO, #SORPRESA, #CUMPLE {
+#INTRO, #BAUTIZO, #GRADUACION, #CONVIVIO, #SORPRESA, #CUMPLE, #GRADUADA {
     width: 85%;
     margin: auto;
     text-align: justify;
@@ -132,4 +132,35 @@ body {
     content: "⭐";
     font-size: 22px;
     margin-right: 12px;
+}
+#METAS{
+    text-align:center;
+    font-size:55px;
+    color:#5d4037;
+    margin-bottom:40px;
+}
+.METAS {
+    width:75%;
+    margin:auto;
+}
+.META {
+    background:#f7ecd8;
+    padding:18px;
+    margin:20px 0;
+    border-radius:15px;
+    border-left:8px solid #d4af37;
+    box-shadow:0px 5px 12px rgba(0,0,0,.15);
+    transition:.3s;
+}
+.META:hover {
+    transform:translateX(10px);
+    box-shadow:0px 8px 18px rgba(0,0,0,.25);
+}
+.META LABEL {
+    font-size:28px;
+    margin-left:15px;
+}
+.META INPUT {
+    width:22px;
+    height:22px;
 }
