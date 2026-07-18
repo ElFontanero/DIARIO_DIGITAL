@@ -202,3 +202,43 @@ body {
     background:linear-gradient(to right, transparent, gold, transparent);
     margin-top:35px;
 }
+.MENSAJE {
+    width:80%;
+    margin:50px auto;
+    padding:35px;
+    background:#F8ECD5;
+    border:3px solid #D4AF37;
+    border-radius:20px;
+    box-shadow:0px 8px 20px rgba(0,0,0,.20);
+}
+.MENSAJE H2 {
+    text-align:center;
+    font-size:45px;
+    color:#6B4F2B;
+    margin-bottom:35px;
+    text-shadow:1px 1px 3px rgba(255,255,255,.5);
+}
+.CAJA {
+    background:#FFFDF8;
+    padding:25px;
+    margin:25px 0;
+    border-left:8px solid #D4AF37;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,.15);
+    transition:.35s;
+}
+.CAJA:HOVER {
+    transform:translateX(12px);
+    box-shadow:0px 8px 20px rgba(0,0,0,.25);
+}
+.CAJA H3 {
+    margin-top:0;
+    color:#7A5C2E;
+    font-size:32px;
+}
+.CAJA P {
+    font-size:28px;
+    color:#4A3F35;
+    line-height:1.8;
+    margin-bottom:0;
+}
