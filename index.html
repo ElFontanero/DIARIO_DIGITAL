@@ -6,10 +6,10 @@
     <LINK REL = "ICON" TYPE = "image/png" HREF = "logo_pestaña.png">
     <title>- DIARIO DE RECUERDOS DIGITAL -</title>
     <LINK REL = "STYLESHEET" HREF = "DIARIO DIGITAL.css">
-<link rel = "preconnect" href = "https://fonts.googleapis.com">
-<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-<link href = "https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+    </head>
 <body>
     <NAV CLASS = "MENU">
         <IMG SRC = "logo.png" ID = "LOGO">
@@ -27,6 +27,33 @@
     <BR>
         <IMG SRC = "intro.jpeg", ID = "imagen1", WIDTH = "20%", HEIGHT = "20%"/> 
         <P ID = "INTRO"> Un mensaje introductorio para mi mejor amiga y hermana en la fe: generalmente soy pesimo para hacer este tipos de cosas, hablando especificamente acerca de los "diarios", debido a que no tengo imaginacion ni creatividad o siquiera habilidades artisticas, pero admito que estoy muy animado por hacerlo, aunque quede todo feo y aburrido, al menos sera algo mio para poder recordar nuestras aventuras, bromas pesadas, jalones de cabello, pellizcos y momentos especiales que lo mas probable... es que solo podre tener contigo, tal vez en algun momento de mi vida haya alguien mas, no lo se, solo Dios sabe, pero sabes?... yo preferiria que no. Preferiria no tener a otra mejor amiga y hermana como tu, para que asi JAMAS tenga el motivo o la excusa de olvidar todos los momentos que pasamos, estamos pasando y si Dios permite... seguiremos pasando, al menos hasta antes de que te vayas, le suplicare a Dios para que si en algun momento me llegara a descuidar y me olvido de ti... que alguien me pellizque, que alguien se burle de mi como solo tu sabes hacerlo, para que mi mente vuelva a recordar, a la maravillosa persona que conoci un dia, no recuerdo cuando fue, tampoco la razon de porque te dirigi la palabra, pero en definitiva, fue una de las pocas decisiones en mi vida de las que no me he arrepentido, realmente soy mucho mas feliz que antes, y eso es gracias a ti, principalmente a Dios debo agradecer, claro, pero estoy seguro que cruzo nuestros caminos, para que juntos avanzaramos, siempre es bueno tener compañia, esa persona especial en tu vida que te empuja cuando te quedas quieto en el camino, que te saca del bache cuando caes en el, que te anima a seguir adelante cuando nadie mas lo hace, al menos no tan significativamente como el o ella, en mi caso... ella, Tu :], gracias por formar parte de ese circulo de personas que amo con todo mi corazon, mi apariencia no es la mas confiable, me atreveria a decir que la gente al verme nunca pensaria que soy cristiano, (hablando unicamente de mi aspecto), ya que mi cara de "teniente mal pagado" no me ayuda en nada, menos con las ojerotas que traigo que parece que fuera un fumador compulsivo, pero a pesar de todo... aqui sigues, me sigues hablando, me sigues pellizcando, y eso... esas son las cosas que al menos para mi, es oro, me da igual los regalos costosos, o la ropa de marca, o que me dediquen un poema magnifico, tus acciones son las que verdaderamente me haran saber si soy realmente importante para ti o no, y creo, al menos en lo que he visto y notado, que soy importante para ti, asi que por ello, muchas gracias, esto que hago, es para ti, y para mi, para el dia en que ya no pueda ver mas tu rostro, me consuele al recordar todo aquello que Dios nos permitio compartir y aunque probablemente llore mucho cuando te vayas, al menos tendre el consuelo de que ya no estas sola, ahora tienes a Dios, y espero que NUNCA te olvides, de lo que Dios ha hecho en tu vida, se que ha sido duro, duele, a veces dan ganas de gritar, de correr, de golpear, de soltarlo todo, de tirar la toalla, tal vez incluso, quitarse la vida, pero, de un joven lastimado a una jovencita lastimada, te digo que... la peor decision que puedes tomar en tu vida, la mas insensata y tonta, es quitarte la vida y despreciar el regalo mas hermoso que Dios te ha dado, porque si hoy te han sucedido cosas malas en tu vida, es para que se cumplan los propositos de Dios, se que es confuso, se que es dificil de creer, pero esto es asi, a veces Dios permite que seamos atacados, humillados, ultrajados, para que asi, finalmente, podamos entregar un corazon flojo y sin fuerzas, al unico que nos puede consolar mas que cualquier ser humano, nuestro Dios y Padre celestial, te quiero mucho, te deseo lo mejor de lo mejor siempre, ojala y cuando te vayas, nos permita el Señor despedirnos apropiadamente o incluso, volver a reencontrarnos en algun momento de nuestras vidas, creo que nada me haria mas feliz que irme con esa ilusion, saber que tal vez, solo tal vez, nuestros caminos se vuelvan a cruzar, como ese dia tan hermoso en que una decision tan sencilla y comun de hablarte como a cualquier otra jovencita, cambio mi vida radicalmente, gracias, Επαφροδιτα, con mucho amor, respeto y una profunda admiracion de mi parte hacia ti, te dedico todo esto, el Señor sea testigo de cuan importante eres para mi, amen, y amen. </P>
+    <BR>
+    <BR>
+    <?PHP INCLUDE("DIARIO_DIGITAL.PHP"); ?>
+    <DIV CLASS = "MENSAJE">
+        <H2>⭐ UNA ESTRELLA TIENE ALGO QUE DECIRTE ⭐</H2>
+    <DIV CLASS = "CAJA">
+        <H3>🌸 Frase del día 🌸</H3>
+        <P>
+            <?PHP ECHO $FRASE; ?>
+        </P>
+    </DIV>
+    <DIV CLASS = "CAJA">
+        <H3>🐨 Versículo del día 🐨</H3>
+        <P>
+            <?PHP ECHO $VERSICULO; ?>
+        </P>
+    </DIV>
+    <DIV CLASS = "CAJA">
+        <H3>🕒 La fecha de hoy es... 🕒</H3>
+        <P>
+            <?PHP ECHO $FECHA; ?>
+    <BR>
+            <?PHP ECHO $HORA; ?>
+        </P>
+    </DIV>
+    </DIV>
+    <BR>
     <BR>
         <IMG SRC = "bautizo.jpeg", ID = "imagen2", WIDTH = "15%", HEIGHT = "20%"/>
         <P ID = "BAUTIZO"> Un dia tan importante nunca debe de ser olvidado, despues de todo.. fue, es y sera siempre la decision mas importante de tu vida, y desde luego, la mas indicada :]. Me alegre mucho al saber por el grupo de WhatsApp que alguien se iba a bautizar, que habia tomado esa decision tan acertada e importante, pero al saber que eras tu, admito que chille internamente como una naca en concierto de Romeo Santos, algunos dicen que me veo muy "serio" o "maduro", pero a veces puedo ser tan infantil como no tienes una idea, especialmente con aquellos en los que confio plenamente, como tu. Me alegro haberlo visto, al menos por zoom, fue divertido verte toda mojada, ojala te hubiera bautizado yo, asi te hubiera dado otra chapoteada nomas de puro cariño, pero me alegre mucho y hasta el dia de hoy por lo que decidiste hacer en ese dia, NUNCA pienses que fue una decision incorrecta o innecesaria, eso fue lo mejor, y Dios traera el consuelo en las tristezas, el descanso despues de esos momentos frustrantes, amada hermana, como tu hermano en la fe, te ofrezco mi apoyo espiritual y fisico cuando tu lo necesites, en donde sea, cuando sea, como sea, mientras Dios me de vida, espero poder estar alli para ti, de la misma manera en que alguna vez, hubo alguien alli para mi cuando mas lo necesitaba.  </P>
