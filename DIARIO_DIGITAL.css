@@ -1,6 +1,17 @@
 body {
-    background-image: none;
-    background-color: burlywood;
+    background-color:burlywood;
+    background-image:
+    radial-gradient(circle,#ffffff33 1px,transparent 1px),
+    radial-gradient(circle,#ffffff22 2px,transparent 2px),
+    radial-gradient(circle,#ffd70022 1px,transparent 1px);
+    background-size:
+    180px 180px,
+    260px 260px,
+    320px 320px;
+    background-position:
+    0 0,
+    50px 100px,
+    120px 40px;
     font-size: 35px;
     font-family: 'Bitcount Single', sans-serif;
 }
