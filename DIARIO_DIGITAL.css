@@ -242,3 +242,25 @@ body {
     line-height:1.8;
     margin-bottom:0;
 }
+.SEPARADOR {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:80px auto;
+    width:85%;
+}
+.LINEA {
+    flex:1;
+    height:2px;
+    background:linear-gradient(to right,
+    transparent,
+    #d4af37,
+    transparent);
+    margin:0 20px;
+}
+.SEPARADOR SPAN {
+    font-size:32px;
+    color:#d4af37;
+    text-shadow:
+    0 0 8px rgba(255,215,0,.7);
+}
